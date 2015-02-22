@@ -20,12 +20,14 @@
 *
 * @package    qtype 
 * @subpackage conceptmap
-* @copyright  2011-2014 Jorge Villalon
+* @copyright  2011-2015 Jorge Villalon
 * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 */
+defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2014061701;
+$plugin->component = 'qtype_conceptmap';
+$plugin->version  = 2015022200;
 $plugin->requires = 2012062506;
-$plugin->maturity = MATURITY_RC;
-$plugin->release = '1.3.3';
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = '1.4.0';
 
